@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 import Form from "./components/Form";
 
@@ -11,10 +11,12 @@ function App() {
     kelas: "",
     harapan: ""
   })
+
+  console.log(data)
   
   return (
     <div>
-      <Form setData={setData}/>
+      <Form data={data} setData={setData}/>
     </div>
   );
 }

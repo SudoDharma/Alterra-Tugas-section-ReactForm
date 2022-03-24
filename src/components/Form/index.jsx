@@ -38,7 +38,9 @@ const Form = ({data, setData}) => {
             harapan: inputs.harapan
         })
 
-        alert("Data pendaftar \"" + inputs.nama + "\" berhasil diterima" )
+        alert("Data pendaftar \"" + inputs.nama + "\" berhasil diterima" );
+        
+        alert("Data yang masuk yaitu:\nNama: " + inputs.nama + "\nEmail: " + inputs.email + "\nNomor Handphone: " + inputs.noHP + "\nLatar pendidikan: " + inputs.latar + "\nKelas coding: " + inputs.kelas + "\nHarapan : " + inputs.harapan);
 
         setInputs({
             nama: "",
